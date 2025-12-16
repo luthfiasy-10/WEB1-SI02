@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+#show-notification-btn {
+    padding: 12px 25px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Styling notifikasi */
+#notification {
+    /* Sembunyikan secara default */
+    display: none; 
+    
+    /* Posisi di atas */
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    /* Styling tampilan */
+    padding: 15px 30px;
+    margin-top: 0;
+    background-color: #007bff; /* Warna default sebelum animasi */
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}

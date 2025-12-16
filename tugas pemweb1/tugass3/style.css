@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+#faq-container {
+    max-width: 700px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item {
+    border-bottom: 1px solid #eee;
+}
+
+.faq-question {
+    padding: 15px;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.faq-answer {
+    /* Sembunyikan jawaban secara default menggunakan CSS */
+    display: none; 
+    padding: 15px;
+    background-color: #e9ecef;
+    border-top: 1px dashed #ccc;
+    color: #333;
+}
+
+/* Kelas untuk event hover, digunakan oleh jQuery */
+.hover-blue {
+    background-color: #b3e0ff !important; 
+    color: #004d99;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1 - DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Biodata Diri</h1>
+
+    <div id="biodata-container">
+        <img id="foto-profil" src="azka.jpg" alt="Foto Profil" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
+        
+        <div id="detail-biodata">
+            <p><strong>Nama:</strong> <span id="nama">Azka Luthfi</span></p>
+            <p><strong>NIM:</strong> <span id="nim">0110125125</span></p>
+            <p><strong>Program Studi:</strong> <span id="program-studi">Sistem Informasi</span></p>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2>Aksi</h2>
+    <div class="tombol-container">
+        <button id="ubah-nama">Ubah Nama</button>
+        <button id="ubah-prodi">Ubah Program Studi</button>
+        <button id="ganti-foto">Ganti Foto</button>
+        <button id="sembunyikan-biodata">Sembunyikan Biodata</button>
+        <button id="tampilkan-biodata" style="display: none;">Tampilkan Biodata</button>
+    </div>
+
+    <script src="ubah.js"></script>
+</body>
+</html>
